@@ -61,13 +61,8 @@ private fun Greeting(name: String) {
     ) {
         Row(modifier = Modifier.padding(24.dp)) {
             Column(modifier = Modifier.weight(1f)) {
-                Text(text = "Hello, ")
+                Text(text = "Hello, test")
                 Text(text = name)
-            }
-            ElevatedButton(
-                onClick = { /* TODO */ }
-            ) {
-                Text("Show more")
             }
         }
     }
